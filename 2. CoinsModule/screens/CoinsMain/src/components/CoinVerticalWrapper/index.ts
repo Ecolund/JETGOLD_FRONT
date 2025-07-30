@@ -1,1 +1,0 @@
-export { CoinVerticalWrapper } from "./CoinVerticalWrapper";

@@ -1,1 +1,0 @@
-export { FileShieldAlt } from "./FileShieldAlt";

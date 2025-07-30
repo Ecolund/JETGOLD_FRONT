@@ -1,1 +1,0 @@
-export { ChartSimple } from "./ChartSimple";

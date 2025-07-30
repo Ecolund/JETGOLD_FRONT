@@ -1,1 +1,0 @@
-export { ChartSimpleWrapper } from "./ChartSimpleWrapper";
