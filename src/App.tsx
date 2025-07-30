@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { CoinsMain } from "./screens/CoinsMain/CoinsMain";
-import { CoinsList } from "./screens/CoinsList/CoinsList";
-import { CoinDetails } from "./screens/CoinDetails/CoinDetails";
+import { Screen } from "./screens/Screen/Screen";
+import { ScreenScreen } from "./screens/ScreenScreen/ScreenScreen";
+import { DivWrapper } from "./screens/DivWrapper/DivWrapper";
 import "./App.css";
 
 export const App = () => {
@@ -10,9 +10,9 @@ export const App = () => {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/" element={<CoinsMain />} />
-          <Route path="/coins" element={<CoinsList />} />
-          <Route path="/coin/:id" element={<CoinDetails />} />
+          <Route path="/" element={<Screen />} />
+          <Route path="/main" element={<ScreenScreen />} />
+          <Route path="/coin/:id" element={<DivWrapper />} />
         </Routes>
       </div>
     </Router>
