@@ -1,0 +1,38 @@
+# Исключить все модули, кроме CoinsModule
+HomeModule/
+PaymentsModule/
+BarsModule/
+BankModule/
+VaultModule/
+SettingsModule/
+
+# Исключить Core (добавим позже, когда появится дизайн)
+Core/
+
+# Исключить неиспользуемые общие папки и ресурсы
+Shared/
+Documentation/
+Prototypes/
+JETGOLD_design/
+
+# Исключить тесты, ассеты и служебные файлы
+test/
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+*.md
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Исключить сборки и временные файлы
+node_modules/
+dist/
+build/
+ios/
+android/
+.expo/
+.git/

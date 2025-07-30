@@ -1,0 +1,17 @@
+.home-indicator {
+  height: 34px;
+  width: 375px;
+}
+
+.home-indicator .rectangle {
+  background-color: var(--primarysoft-grey);
+  border: 0px none;
+  border-color: var(--neutralgrey);
+  border-radius: 100px;
+  height: 7px;
+  left: 120px;
+  opacity: 0.5;
+  position: relative;
+  top: 20px;
+  width: 136px;
+}
