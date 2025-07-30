@@ -1,0 +1,31 @@
+.market-overview {
+  background-color: #131414;
+  border-radius: 16px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.market-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.market-title {
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.market-price {
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.market-change {
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}

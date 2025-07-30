@@ -1,0 +1,111 @@
+.coins-main {
+  padding: 16px;
+  padding-bottom: 80px; /* Space for bottom navigation */
+  min-height: calc(100vh - 105px); /* Account for header */
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.featured-coin {
+  background-color: #131414;
+  border-radius: 16px;
+  padding: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.coin-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.coin-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.view-all-btn {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.coin-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.coin-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.coin-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.rating-text {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.coin-description {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.read-more {
+  background: none;
+  border: none;
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+}
+
+.offers-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 390px) {
+  .featured-coin {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .coin-image-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

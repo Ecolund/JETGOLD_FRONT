@@ -1,0 +1,243 @@
+.coin-card {
+  background-color: #131414;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seller-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.seller-info {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.seller-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 152px;
+}
+
+.seller-name-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.status-indicator.online {
+  background-color: #85ea88;
+}
+
+.seller-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.gold-badge {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.seller-stats {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  flex: 1;
+}
+
+.deals-label {
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.deals-count {
+  font-size: 12px;
+}
+
+.verification-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cert-icon,
+.timer-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.verification-text {
+  font-size: 10px;
+  flex: 1;
+}
+
+.timer-text {
+  font-size: 12px;
+}
+
+.card-divider {
+  height: 1px;
+  background-color: rgba(90, 96, 96, 0.11);
+  width: 334px;
+  margin: 0 auto;
+}
+
+.price-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.main-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price-change {
+  font-size: 12px;
+  flex: 1;
+}
+
+.price-per-gram {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.price-per-gram .text-secondary {
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.price-per-gram .text-primary {
+  font-size: 12px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.info-row .text-secondary {
+  font-size: 12px;
+}
+
+.info-row .text-primary {
+  font-size: 12px;
+}
+
+.methods-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.methods-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.methods-header .text-primary {
+  font-size: 10px;
+  flex: 1;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.payment-row {
+  display: flex;
+  gap: 12px;
+}
+
+.payment-method {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.method-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #af8a39 0%, #ffde7d 41%, #af8a39 100%);
+}
+
+.payment-method .text-secondary {
+  font-size: 12px;
+}
+
+.delivery-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.delivery-method {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.delivery-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #00c3b6;
+}
+
+.delivery-method .text-secondary {
+  font-size: 12px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.last-update {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.last-update .text-secondary {
+  font-size: 12px;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.buy-btn {
+  width: 103px;
+  height: 40px;
+  font-size: 14px;
+}
